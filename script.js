@@ -4,5 +4,11 @@ function sayHi() {
 function changeColor(){
   var box = document.getElementById("rectangle");
 
-  box.style.background = "blue";
+  if(box.style.background == "blue"){
+    box.style.background = "red";
+  }
+  else{
+    box.style.background = "blue";
+  }
+  
 }
