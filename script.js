@@ -1,5 +1,5 @@
 function sayHi() {
-  alert('Hello from your website!');
+  alert('Femboy search history injected!');
 }
 function changeColor(){
   var box = document.getElementById("rectangle");
